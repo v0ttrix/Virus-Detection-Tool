@@ -2,6 +2,8 @@
 
 A cross-platform terminal tool for scanning websites and generating vulnerability reports.
 
+![Demo](demo.jpg)
+
 ## Download
 
 **Linux:** [Download webscan](https://github.com/v0ttrix/Virus-Detection-Tool/releases/latest/download/webscan)
