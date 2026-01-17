@@ -23,12 +23,16 @@ chmod +x webscan
 
 ## Features
 
-- Security header analysis (X-Frame-Options, CSP, HSTS, etc.)
-- Form security checks (CSRF tokens, HTTP methods)
-- SSL/HTTPS verification
-- Common exposed file detection
-- Color-coded severity levels (CRITICAL, HIGH, MEDIUM, LOW)
-- Terminal-based vulnerability report
+- **SQL Injection Detection** - Error-based and time-based SQLi testing
+- **Memory Leak Detection** - Identifies potential memory issues and resource leaks
+- **Code Quality Analysis** - Detects debug mode, exposed errors, dangerous functions
+- **Security Headers** - Analyzes X-Frame-Options, CSP, HSTS, etc.
+- **Form Security** - Checks for CSRF tokens and insecure methods
+- **SSL/HTTPS Verification** - Ensures encrypted communication
+- **Exposed Files Detection** - Scans for .env, config files, backups
+- **Risk Scoring Algorithm** - Calculates overall security risk (0-100)
+- **Color-coded Severity** - CRITICAL, HIGH, MEDIUM, LOW levels
+- **Actionable Recommendations** - Specific fixes for detected issues
 
 ## Build from Source
 
